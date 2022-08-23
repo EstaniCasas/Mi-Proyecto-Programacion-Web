@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    background-color: black;
+    height: auto;
+    justify-content: space-between;
+    padding: 0px 2%;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar li a {
+    color: white;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+.body {
+    background-color: rgb(138, 138, 138);
+    padding: 5% 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 20%;
+    background-color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
