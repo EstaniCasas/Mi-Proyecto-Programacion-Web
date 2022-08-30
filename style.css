@@ -6,33 +6,42 @@ header {
     padding: 0px 2%;
 }
 
-header img {
-    width: 100%;
+.logo img {
+    border-radius: 50%;
+    width: 25%;
     height: auto;
 }
 
-.navbar {
-    display: flex;
-    width: 50%;
+.nav {
+    align-items: center;
     justify-content: space-between;
 }
 
-.navbar li {
-    list-style: none;
-    justify-content: space-around;
-}
-
-.navbar li a {
+.nav li a {
     color: white;
 }
 
-.navbar li a:hover {
+.nav li a:hover {
     color: blue;
 }
 
 .body {
     background-color: rgb(138, 138, 138);
+}
+
+.carousel {
+    text-align: center;
     padding: 5% 0px;
+}
+
+.carousel-item {
+    width: 100%; 
+    height: auto;
+}
+
+.carousel-image {
+    width: 600px;
+    height: 400px;
 }
 
 .container {
@@ -40,10 +49,26 @@ header img {
     justify-content: space-between;
 }
 
-section {
+.card {
     width: 20%;
     background-color: white;
     text-align: center;
+}
+
+.form {
+    justify-content: center;
+    padding: 5%;
+}
+
+.form h3{
+    color: white;
+    text-align: center;
+}
+
+.form-label {
+    background-color: black;
+    padding: 2%;
+    margin: 0px;
 }
 
 footer {
