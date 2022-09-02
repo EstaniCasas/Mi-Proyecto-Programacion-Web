@@ -17,6 +17,10 @@ header {
     justify-content: space-between;
 }
 
+.dropdown .btn:focus {
+    box-shadow: none !important;
+}
+
 .nav li a {
     color: white;
 }
