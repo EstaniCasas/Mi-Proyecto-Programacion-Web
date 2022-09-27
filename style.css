@@ -1,0 +1,112 @@
+header {
+    background-color: rgba(36,41,71,255);
+    padding: 0px 2%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+}
+
+.nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown .btn:focus {
+    box-shadow: none !important;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav li a:hover {
+    color: blue;
+}
+
+.body {
+    background-color: rgba(21,43,93,255);
+}
+
+.carousel {
+    text-align: center;
+    padding: 5% 0px;
+    border-bottom: 3px black solid;
+}
+
+.carousel-item {
+    width: 100%; 
+    height: auto;
+}
+
+.carousel-image {
+    width: 600px;
+    height: 400px;
+}
+
+.quienes-somos-x {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(44, 44, 253);
+    border-bottom: 3px black solid;
+}
+
+.quienes-somos-x .txt {
+    padding: 5%;
+}
+
+.quienes-somos-x .img {
+    background-color: rgb(134, 140, 255);
+    padding: 5%;
+}
+
+.quienes-somos-x img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.quienes-somos p {
+    color: white;
+}
+
+.faqs { 
+    padding: 4% 4% 0px 4%;
+}
+
+.faqs h1 {
+    text-align: center;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.form {
+    justify-content: center;
+    padding: 5% 25%;
+}
+
+.form h3{
+    color: white;
+    text-align: center;
+}
+
+.form-label {
+    background-color: rgb(4, 0, 35);
+    padding: 2%;
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
